@@ -1,0 +1,12 @@
+let moviesData = `[{"movieName":"Final: The Rapture","image":"http://dummyimage.com/196x157.bmp/cc0000/ffffff","description":"incentivize extensible metrics","likes":65},
+{"movieName":"Half Moon Street","image":"http://dummyimage.com/151x207.bmp/dddddd/000000","description":"innovate e-business eyeballs","likes":5},
+{"movieName":"Maze, The","image":"http://dummyimage.com/130x206.jpg/dddddd/000000","description":"productize open-source e-services","likes":82},
+{"movieName":"Slums of Beverly Hills, The","image":"http://dummyimage.com/170x243.jpg/cc0000/ffffff","description":"visualize plug-and-play architectures","likes":48},
+{"movieName":"Klimt","image":"http://dummyimage.com/236x103.jpg/ff4444/ffffff","description":"visualize out-of-the-box users","likes":36},
+{"movieName":"Witless Protection","image":"http://dummyimage.com/116x117.png/dddddd/000000","description":"scale efficient e-business","likes":21},
+{"movieName":"And God Created Woman","image":"http://dummyimage.com/160x239.jpg/dddddd/000000","description":"empower next-generation interfaces","likes":91},
+{"movieName":"I Am Divine","image":"http://dummyimage.com/222x221.png/dddddd/000000","description":"e-enable end-to-end action-items","likes":64},
+{"movieName":"Moonlighting","image":"http://dummyimage.com/250x239.png/5fa2dd/ffffff","description":"integrate compelling functionalities","likes":79},
+{"movieName":"Stevie","image":"http://dummyimage.com/233x230.png/dddddd/000000","description":"incentivize enterprise networks","likes":39},
+{"movieName":"If I Want to Whistle, I Whistle (Eu cand vreau sa fluier, fluier)","image":"http://dummyimage.com/108x212.jpg/dddddd/000000","description":"repurpose frictionless infrastructures","likes":49},
+{"movieName":"This is Martin Bonner","image":"http://dummyimage.com/108x190.bmp/cc0000/ffffff","description":"implement efficient web-readiness","likes":9}]`
