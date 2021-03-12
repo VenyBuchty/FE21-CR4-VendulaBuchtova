@@ -22,8 +22,11 @@
   background-color: var(--lightGreen) !important;
 }
 
-.border-blue {
-  border: 2px solid #3bd4d8;
+.box-shadow {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 8px 23px 25px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 8px 23px 25px rgba(0, 0, 0, 0);
 }
 
 body {
@@ -41,4 +44,11 @@ footer a {
 
 .badgeShape {
   clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+@media screen and (min-width: 400px) and (max-width: 470px) {
+  .movieImg {
+    width: 200px;
+    height: 350px;
+  }
 }
