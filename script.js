@@ -1,4 +1,4 @@
-/* Movie Cards Function */
+/* initialize Movie Cards */
 
 let moviesArray = JSON.parse(moviesData);
 
@@ -53,15 +53,19 @@ theParent.addEventListener("click", incrementLike);
 
 function incrementLike (e){
     if(e.target.id == "thumbsUp") {
+        /* remove old movieArray */
         let movie = document.getElementById("movieCard")
         movie.innerHTML =""
+        /* find card index and updated likes */
         let cardID = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.id
         moviesArray[cardID].likes += 1;
+        /* create movieArray with new like value */
         createMoviesCards(moviesArray);
         console.log(moviesArray);
     };
         
 }
+
 
 
 let sorting = document.querySelector("#sort")
@@ -72,9 +76,11 @@ let isAscending = true;
 
 function cardSort (e){
     if(e.target.id == "sort") {
+        /* remove old movieArray */
         let movie = document.getElementById("movieCard")
         movie.innerHTML =""
         isAscending = !isAscending;
+        /* sort movieArray */
         moviesArray.sort((a, b) => {
         if (isAscending) {
             return b.likes - a.likes;
@@ -83,6 +89,8 @@ function cardSort (e){
         }
         
     });
+
+    /* create new sorted movieArray */
     createMoviesCards(moviesArray);
         
     }
